@@ -96,7 +96,7 @@ const IdleScreen = ({ onPlay, onFullscreen }) => {
         {/* Logotipo del Maratón */}
         <div className="mb-6 sm:mb-8 animate-in fade-in duration-1000">
           <img 
-            src="https://customer-assets.emergentagent.com/job_maraton-juarez/artifacts/xy6stpkh_VARIANTES%20EDICION%2014_EDICION-%20VERDE%20LISTON%20MORADO%20copia.png"
+            src="/images/logo-maraton.png"
             alt="Maratón Internacional de Juárez"
             className="w-64 sm:w-80 md:w-96 h-auto drop-shadow-2xl mx-auto"
             onError={(e) => {
@@ -153,7 +153,7 @@ const IdleScreen = ({ onPlay, onFullscreen }) => {
       {/* Footer con imagen del maratón */}
       <div className="absolute bottom-4 sm:bottom-6 left-1/2 transform -translate-x-1/2 z-10">
         <img 
-          src="https://customer-assets.emergentagent.com/job_maraton-juarez/artifacts/i726fuo6_MARATON_2024_post-22.png"
+          src="/images/footer-corazones.png"
           alt="Para Grandes Corazones de Pies Ligeros"
           className="w-64 sm:w-72 md:w-80 h-auto object-contain drop-shadow-lg"
         />
