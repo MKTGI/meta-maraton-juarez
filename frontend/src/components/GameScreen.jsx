@@ -205,7 +205,7 @@ const GameScreen = ({ onGameComplete, currentAttempt, setCurrentAttempt, attempt
           <div className="absolute inset-0 bg-gradient-to-r from-orange-400 to-red-500 rounded-full opacity-20 animate-pulse"></div>
           <div className="flex flex-col items-center justify-center text-center relative z-10">
             <img 
-              src="https://customer-assets.emergentagent.com/job_maraton-juarez/artifacts/2jyoagwc_Personaje_corriendo.png"
+              src="/images/corredor-icon.png"
               alt="Corredor"
               className="w-16 sm:w-20 md:w-24 h-16 sm:h-20 md:h-24 mb-2 sm:mb-4 drop-shadow-lg object-contain"
             />
@@ -216,7 +216,7 @@ const GameScreen = ({ onGameComplete, currentAttempt, setCurrentAttempt, attempt
         {/* Imagen de fechas del maratón */}
         <div className="mt-6 sm:mt-8 animate-in fade-in duration-1000">
           <img 
-            src="https://customer-assets.emergentagent.com/job_maraton-juarez/artifacts/3kzu3vqx_fecha_MARATON2024_fecha.png"
+            src="/images/aniversario-1991-25.png"
             alt="Fechas Maratón Internacional de Juárez 1991-25"
             className="w-48 sm:w-56 md:w-64 h-auto drop-shadow-xl mx-auto object-contain"
           />
