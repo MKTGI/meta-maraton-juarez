@@ -133,7 +133,7 @@ const ResultsScreen = ({ attempts, onBackToHome }) => {
       {/* Logotipo del Maratón */}
       <div className="absolute top-4 sm:top-6 left-4 sm:left-6 z-10">
         <img 
-          src="https://customer-assets.emergentagent.com/job_maraton-juarez/artifacts/xy6stpkh_VARIANTES%20EDICION%2014_EDICION-%20VERDE%20LISTON%20MORADO%20copia.png"
+          src="/images/logo-maraton.png"
           alt="Maratón Internacional de Juárez"
           className="w-16 sm:w-20 md:w-24 h-auto drop-shadow-lg opacity-90"
         />
@@ -227,7 +227,7 @@ const ResultsScreen = ({ attempts, onBackToHome }) => {
         {/* Imagen del maratón 2024 como pie de página */}
         <div className="mt-6 sm:mt-8 px-4">
           <img 
-            src="https://customer-assets.emergentagent.com/job_maraton-juarez/artifacts/skgxaiw9_MARATON_2024_post-23.png"
+            src="/images/promo-resultados.png"
             alt="Maratón Internacional de Juárez 2024"
             className="w-full max-w-md h-auto object-contain mx-auto rounded-lg shadow-lg"
           />
