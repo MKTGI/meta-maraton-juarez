@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta name="theme-color" content="#D32F2F" />
+    <meta name="description" content="Meta Maratón Internacional de Juárez - Juego táctil oficial" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    
+    <!-- PWA -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Prevenir zoom -->
+    <style>
+      * {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+      }
+      
+      body {
+        font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        touch-action: manipulation;
+        overscroll-behavior: none;
+      }
+    </style>
+
+    <title>META - Maratón Internacional de Juárez</title>
+  </head>
+  <body>
+    <noscript>Necesitas habilitar JavaScript para ejecutar esta aplicación.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
