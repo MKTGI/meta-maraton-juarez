@@ -1,0 +1,59 @@
+╔══════════════════════════════════════════════════════════════╗
+║         META - MARATÓN INTERNACIONAL DE JUÁREZ               ║
+║                    GUÍA COMPLETA 2024                       ║
+╚══════════════════════════════════════════════════════════════╝
+
+🎯 ¿QUÉ ES ESTE JUEGO?
+═══════════════════════════════════════════════════════════════
+Un juego táctil donde los participantes deben detener un contador
+en el kilómetro 21 o 42 para ganar premios del maratón.
+
+📦 INSTALACIÓN SÚPER FÁCIL (SOLO LA PRIMERA VEZ)
+═══════════════════════════════════════════════════════════════
+1. 🖱️  Haz doble clic en: "INSTALAR-JUEGO.bat"
+2. ⏳ Espera que termine (puede tardar 5-10 minutos)
+3. ✅ Cuando diga "LISTO PARA USAR" ya está instalado
+
+⚠️  SI PIDE INSTALAR NODE.JS:
+   - Se abrirá una página web automáticamente  
+   - Se descargará un archivo .msi
+   - Ejecuta ese archivo y da "Siguiente" a todo
+   - Cuando termine, ejecuta "INSTALAR-JUEGO.bat" de nuevo
+
+🎮 USAR EL JUEGO (DESPUÉS DE INSTALAR)
+═══════════════════════════════════════════════════════════════
+1. 🖱️  Haz doble clic en: "INICIAR-META.bat"
+2. ⏳ Espera unos segundos
+3. 🌐 Se abrirá automáticamente en el navegador
+4. 🎯 ¡Listo para jugar!
+
+🏆 CÓMO FUNCIONA EL JUEGO
+═══════════════════════════════════════════════════════════════
+• El contador corre del 1 al 42 en bucle
+• Tienes 3 oportunidades por partida
+• Toca el botón "META" para detener el contador
+• OBJETIVOS:
+  - 21 kilómetros = Premio B (medio maratón)
+  - 42 kilómetros = Premio A (maratón completo)
+• PREMIOS FINALES:
+  - 3 aciertos = Premio A 🏆
+  - 2 aciertos = Premio B 🥈  
+  - 1 acierto = Premio C 🥉
+  - 0 aciertos = Sigue intentando 💪
+
+🔧 SOLUCIÓN DE PROBLEMAS
+═══════════════════════════════════════════════════════════════
+❌ "No se puede abrir INICIAR-META.bat"
+   → Ejecuta primero "INSTALAR-JUEGO.bat"
+
+❌ "No abre el navegador automáticamente"
+   → Abre manualmente: http://localhost:3000
+
+❌ "Error de puerto 3000 ocupado"
+   → Cierra todas las ventanas del navegador
+   → Ejecuta "INICIAR-META.bat" de nuevo
+
+📞 CONTACTO TÉCNICO
+═══════════════════════════════════════════════════════════════
+Desarrollado para el Maratón Internacional de Juárez 2024
+Versión: 1.0 Final | Octubre 2024
